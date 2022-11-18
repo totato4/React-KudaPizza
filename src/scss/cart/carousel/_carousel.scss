@@ -1,0 +1,59 @@
+.carousel__container {
+    width: 1640px;
+    height: 348px;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    flex-wrap: nowrap;
+}
+
+.carousel-window {
+    overflow: hidden;
+    height: 100%;
+    width: 850px;
+    
+}
+
+.carousel-items__container {
+    height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+    column-gap: 30px;
+}
+
+// .arrow {
+//     cursor: pointer;
+//     display: inline-block;
+//     width: 4em;
+//     height: 4em;
+//     border: 0.5em solid;
+//     border-radius: 50%;
+//     text-align: center;
+// }
+
+// .arrow:after {
+// content: '';
+//     display: inline-block;
+//     margin-top: 1.05em;
+//     margin-left: 0.6em;
+//     width: 1.4em;
+//     height: 1.4em;
+//     border-top: 0.5em solid;
+//     border-right: 0.5em solid;
+//     -moz-transform: rotate(-135deg);
+//     -webkit-transform: rotate(-135deg);
+//     transform: rotate(-135deg);
+// }
+
+// .arrow__wrapper {
+//     background-color: #FF7010;
+//     width: 40px;
+//     height: 40px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: white;
+// }

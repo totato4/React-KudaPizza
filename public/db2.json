@@ -1,0 +1,933 @@
+ [
+
+  {
+      "id": "0",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/01735d5a70154bd3884899030a671629_366x366.jpeg",
+      "name": "Сырный цыпленок",
+      "filling": [
+        {
+          "name": "курица",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "моцарелла",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "сыры чеддер и пармезан",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "сырный соус",
+          "img": "img/home/modal-pizza/ing1.png"
+        },
+        {
+          "name": "томаты",
+          "img": "img/home/modal-pizza/ing4.png"
+        },
+        {
+          "name": "фирменный соус альфредо",
+          "img": "img/home/modal-pizza/ing1.png"
+        },
+        {
+          "name": "чеснок",
+          "img": "img/home/modal-pizza/ing4.png"
+        }
+
+        ] ,
+      "category": 1,
+      "types": [0, 1],
+      "sizes": [20, 28, 33],
+      "price": 399,
+      "rating": 4,
+      "recent": false,
+      "hit": 1
+    },
+    {
+      "id": "1",
+      "name": "Домашняя",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/b473722281944c78ae1d6532576f92fa_366x366.jpeg",
+      "filling": [
+        {
+          "name": "пикантная пепперони",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "ветчина",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "маринованные огурчики",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "моцарелла",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "фирменный томатный соус",
+          "img": "img/home/modal-pizza/ing2.png"
+        }
+      ] ,
+      "category": 1,
+      "types": [1],
+      "sizes": [20, 33],
+      "price": 549,
+      "rating": 6,
+      "recent": true,
+      "hit": 0
+    },
+    {
+      "id": "2",
+      "name": "Ветчина и грибы",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/aa845b6e841241fbbff1a770b3ad3103_366x366.jpeg",
+      "filling": [
+                {
+          "name": "ветчина",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "шампиньоны",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "моцарелла",
+          "img": "img/home/modal-pizza/ing4.png"
+        },
+        {
+          "name": "фирменный томатный соус",
+          "img": "img/home/modal-pizza/ing4.png"
+        }
+      ] ,
+      "category": 1,
+      "types": [0],
+      "sizes": [20, 33],
+      "price": 249,
+      "rating": 4,
+      "recent": true,
+      "hit": 1
+      
+    },
+    {
+      "id": "3",
+      "name": "Пепперони",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/bf3377af7cfe4962915668d14bb8d0f4_366x366.jpeg",
+      "filling": [
+        {
+          "name": "пикантная пепперони",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "моцарелла",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "фирменный томатный соус",
+          "img": "img/home/modal-pizza/ing2.png"
+        }
+
+        ] ,
+      "category": 1,
+      "types": [0, 1],
+      "sizes": [20, 28, 33],
+      "price": 628,
+      "rating": 2,
+      "recent": true,
+      "hit": 1
+    },
+    {
+      "id": "4",
+      "name": "Четыре сезона",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/a02280d5dd9342f7925538752be9b521_366x366.jpeg",
+      "filling": [
+        {
+          "name": "моцарелла",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "ветчина",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "пикантная пепперони",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "брынза",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "томаты",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "шампиньоны",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "итальянские травы",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "фирменный томатный соус",
+          "img": "img/home/modal-pizza/ing2.png"
+        }
+
+        ] ,
+      "category": 1,
+      "types": [0, 1],
+      "sizes": [20, 28, 33],
+      "price": 628,
+      "rating": 2,
+      "recent": true,
+      "hit": 1
+    },
+    {
+      "id": "5",
+      "name": "Чизбургер",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/3bc057459afb4b2b8f2781bd1895b3a9_366x366.jpeg",
+      "filling": [
+        {
+          "name": "мясной соус болоньезе",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "маринованные огурчики",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "томаты",
+          "img": "img/home/modal-pizza/ing4.png"
+        },
+        {
+          "name": "красный лук",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "моцарелла",
+          "img": "img/home/modal-pizza/ing2.png"
+        }
+      ] ,
+      "category": 1,
+      "types": [1],
+      "sizes": [20, 33],
+      "price": 249,
+      "rating": 4,
+      "recent": true,
+      "hit": 1
+    },
+    {
+      "id": "6",
+      "name": "Мясная",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/afb7bb96c6624a17b69543db3b340c86_366x366.jpeg",
+      "filling": [
+        {
+          "name": "курица",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "ветчина",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "пикантная пепперони",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "острая чоризо",
+          "img": "img/home/modal-pizza/ing1.png"
+        },
+        {
+          "name": "моцарелла",
+          "img": "img/home/modal-pizza/ing4.png"
+        },
+        {
+          "name": "фирменный томатный соус",
+          "img": "img/home/modal-pizza/ing4.png"
+        }
+
+        ] ,
+      "category": 1,
+      "types": [0, 1],
+      "sizes": [20, 28, 33],
+      "price": 399,
+      "rating": 4,
+      "recent": true,
+      "hit": 1
+    },
+    {
+      "id": "7",
+      "name": "Гавайская",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/5bf1c77b3ff44f93bb01c840ab35b033_366x366.jpeg",
+      "filling": [
+        {
+          "name": "ветчина",
+          "img": "img/home/modal-pizza/ing3.png"
+        },
+        {
+          "name": "ананасы",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "моцарелла",
+          "img": "img/home/modal-pizza/ing2.png"
+        },
+        {
+          "name": "фирменный томатный соус",
+          "img": "img/home/modal-pizza/ing2.png"
+        }
+      ] ,
+      "category": 1,
+      "types": [0],
+      "sizes": [20, 33],
+      "price": 549,
+      "rating": 6,
+      "recent": true,
+      "hit": 1
+    },
+    {
+      "id": "10",
+      "name": "Ролл с огурцом",
+      "imageUrl": "https://cdn.sushiwok.ru/img/38be000f5ecdb570eebfa5e3dc036dd7/350x350",
+      "filling": ["Огурец"] ,
+      "category": 2,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": true,
+      "hit": false
+    },
+    {
+      "id": "11",
+      "name": "Ролл Филадельфия",
+      "imageUrl": "https://cdn.sushiwok.ru/img/af2a12f427dd506393447f00e3d98acc/350x350",
+      "filling": ["Лосось", "огурец", "сыр сливочный"] ,
+      "category": 2,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": true
+    },
+    {
+      "id": "12",
+      "name": "Ролл Калифорния с тигровой креветкой",
+      "imageUrl": "https://cdn.sushiwok.ru/img/5215710b6a260542303dc76ac57b65c8/350x350",
+      "filling": ["Краб-крем", "креветка тигровая", "огурец", "масаго"] ,
+      "category": 2,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "13",
+      "name": "Ролл Сырная креветка",
+      "imageUrl": "https://cdn.sushiwok.ru/img/9698fe3205ab79dc5e216c5cfa357845/350x350",
+      "filling": ["сыр сливочный", "салат айсберг", "краб-крем", "медовый соус", "пармезан", "масаго", "креветки"] ,
+      "category": 2,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "14",
+      "name": "Ролл Калифорния в кунжуте",
+      "imageUrl": "https://cdn.sushiwok.ru/img/abb0c3a59151db5fc10107638fad2c5d/350x350",
+      "filling": ["краб-крем", "огурец", "авокадо", "кунжут "] ,
+      "category": 2,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "15",
+      "name": "Ролл с лососем",
+      "imageUrl": "https://cdn.sushiwok.ru/img/2baad786fced33b602d7cefbf8fb6bab/350x350",
+      "filling": ["Лосось"] ,
+      "category": 2,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "16",
+      "name": "Ролл с авокадо",
+      "imageUrl": "https://cdn.sushiwok.ru/img/282b3ad4ce35f3b8f90a806b9736a73d/350x350",
+      "filling": ["Авокадо"] ,
+      "category": 2,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": true,
+      "hit": false
+    },
+    {
+      "id": "17",
+      "name": "Ролл Крабик",
+      "imageUrl": "https://cdn.sushiwok.ru/img/72a3b40492f4f52c55da1b0ba31af146/350x350",
+      "filling": ["Краб-крем", "сыр сливочный"] ,
+      "category": 2,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": true
+    },
+    {
+      "id": "20",
+      "name": "Coca-Cola, 0,5 л",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/5a945ed86ef943ac9583c4a6413d9ad0_366x366.jpeg",
+      "category": 3,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": true,
+      "hit": false
+    },
+    {
+      "id": "21",
+      "name": "Sprite",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/73eb242273e0477e9544104ca9b1d42f_366x366.jpeg",
+      "category": 3,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": true
+    },
+    {
+      "id": "22",
+      "name": "Schweppes bitter lemon",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/8a299824e6fa4fbfaf1ef66c24721603_1875x1875.jpeg",
+      "category": 3,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "23",
+      "name": "Fanta",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/c5781875bf694dbc97bc327455cd87d9_1875x1875.jpeg",
+      "category": 3,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "24",
+      "name": "FuzeTea Zero с персиком и розой ",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/59ee61f54e334585b4b2ba3a0c04a310_366x366.png",
+      "category": 3,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "25",
+      "name": "Вода BonAqua, негазированная",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/5fd4dcc4135b4ce1b2dbf6df3e1f91e2_1875x1875.jpeg",
+      "category": 3,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "26",
+      "name": "Кофе Карамельный капучино",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/5668e383e75344bc86ae5dfe05539406_1875x1875.jpeg",
+      "category": 3,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "27",
+      "name": "Кофе Американо",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/8c6f4026dad743c599e85819ffff3e9c_1875x1875.jpeg",
+      "category": 3,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "30",
+      "name": "Додсер",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/dca9c4ff00a54cde85f741ea2ee37b3b_366x366.jpeg",
+      "category": 4,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": true,
+      "hit": false
+    },
+    {
+      "id": "31",
+      "name": "Мясной Стартер",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/ca12f5cbed9e4814a308ea771d1087ad_366x366.jpeg",
+      "category": 4,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": true
+    },
+    {
+      "id": "32",
+      "name": "Картошка фри",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/5c7e3ae6e2be4b8eba8f342ad58fc77d_366x366.jpeg",
+      "category": 4,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "33",
+      "name": "Куриные крылья",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/8dd01d545d814a3f87597d8e6149f0b0_366x366.jpeg",
+      "filling": ["Тигровая креветка", "огурец", "авокадо", "соус Айоли", "рис", "Икра"] ,
+      "category": 4,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "34",
+      "name": "Куриные кусочки",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/165d737436ac4976814599babeef11c3_366x366.jpeg",
+      "category": 4,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "35",
+      "name": "Салат Цезарь",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/bf15b0d548f64555b99259cf9fee5fcd_366x366.jpeg",
+      "category": 4,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "36",
+      "name": "Острый Додсер",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/14afcd3cc7094ee49a8b71953ef9f777_366x366.jpeg",
+      "category": 4,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "37",
+      "name": "Паста Карбонара",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/289ceaa7249640b0b5a109b908b07cd6_1875x1875.jpeg",
+      "category": 4,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "40",
+      "name": "Додсер",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/dca9c4ff00a54cde85f741ea2ee37b3b_366x366.jpeg",
+      "category": 6,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": true,
+      "hit": false
+    },
+    {
+      "id": "41",
+      "name": "Мясной Стартер",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/ca12f5cbed9e4814a308ea771d1087ad_366x366.jpeg",
+      "category": 6,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": true
+    },
+    {
+      "id": "42",
+      "name": "Картошка фри",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/5c7e3ae6e2be4b8eba8f342ad58fc77d_366x366.jpeg",
+      "category": 6,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "43",
+      "name": "Куриные крылья",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/8dd01d545d814a3f87597d8e6149f0b0_366x366.jpeg",
+      "filling": ["Тигровая креветка", "огурец", "авокадо", "соус Айоли", "рис", "Икра"] ,
+      "category": 4,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "44",
+      "name": "Куриные кусочки",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/165d737436ac4976814599babeef11c3_366x366.jpeg",
+      "category": 6,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "45",
+      "name": "Салат Цезарь",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/bf15b0d548f64555b99259cf9fee5fcd_366x366.jpeg",
+      "category": 6,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "46",
+      "name": "Острый Додсер",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/14afcd3cc7094ee49a8b71953ef9f777_366x366.jpeg",
+      "category": 6,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "47",
+      "name": "Паста Карбонара",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/289ceaa7249640b0b5a109b908b07cd6_1875x1875.jpeg",
+      "category": 6,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "50",
+      "name": "Комбо от 599 ₽",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/ComboTemplates/922a6d2b92b0455688be6bb39bf787e0_1875x1875.webp",
+      "category": 5,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": true,
+      "hit": false
+    },
+    {
+      "id": "51",
+      "name": "Семейное комбо",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/ComboTemplates/99315e9f323743ebb42f03995f963db1_1875x1875.webp",
+      "category": 5,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": true
+    },
+    {
+      "id": "52",
+      "name": "3 пиццы от 799 ₽",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/ComboTemplates/370eb42ba2a24774b7222c5403ac42aa_1875x1875.webp",
+      "category": 5,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "53",
+      "name": "2 пиццы",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/ComboTemplates/d5205dc9b5874626aff76ce6fd5dd0e9_1875x1875.webp",
+      "filling": ["Тигровая креветка", "огурец", "авокадо", "соус Айоли", "рис", "Икра"] ,
+      "category": 5,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "54",
+      "name": "2 пиццы и напиток",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/ComboTemplates/7a69edc763c6478f9c13b1019268d759_1875x1875.webp",
+      "category": 5,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "55",
+      "name": "4 Закуски",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/ComboTemplates/8b0a12759f6246cfa90bd186ceb701d4_1875x1875.webp",
+      "category": 5,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "56",
+      "name": "2 Кофе: Латте или Капучино 0,4",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/ComboTemplates/4f0e936c687b4d9eb177ce22e1a639ab_1875x1875.webp",
+      "category": 5,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "57",
+      "name": "2 Стартера",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/ComboTemplates/f3d997a3fb13486c8cc85188f94b264a_1875x1875.webp",
+      "category": 5,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "60",
+      "name": "Чизкейк Нью-Йорк",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/5ffff27c9c2d488eb6cec35c27ebff9a_1875x1875.jpeg",
+      "category": 6,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": true,
+      "hit": false
+    },
+    {
+      "id": "61",
+      "name": "Фондан, 2 шт",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/09cd1af3588944bcb56dded118a9774a_1875x1875.jpeg",
+      "category": 6,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": true
+    },
+    {
+      "id": "62",
+      "name": "Бруслетики, 16 шт",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/4bd0631f23144742b1e4f80b62bc61b5_1875x1875.jpeg",
+      "category": 6,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "63",
+      "name": "Рулетики с корицей, 16 шт",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/9ea24828a88a4767b0a763376dff14ce_1875x1875.jpeg",
+      "filling": ["Тигровая креветка", "огурец", "авокадо", "соус Айоли", "рис", "Икра"] ,
+      "category": 6,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "64",
+      "name": "Сырники с малиновым вареньем, 4 шт",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/5f21db048a124b6db5462f0dd21df57f_1875x1875.jpeg",
+      "category": 6,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "65",
+      "name": "Маффин Три шоколада",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/7920b66166924439b8ed1991adf4bf84_1875x1875.jpeg",
+      "category": 6,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "66",
+      "name": "Чизкейк Манго-маракуйя",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/701416b98ee5488e8f43fe47c13b4b4b_1875x1875.png",
+      "category": 6,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "67",
+      "name": "Чизкейк Банановый с шоколадным печеньем",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/9b493b36c58e40af9138b323cbdcf78b_1875x1875.jpeg",
+      "category": 6,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "70",
+      "name": "Додсер",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/dca9c4ff00a54cde85f741ea2ee37b3b_366x366.jpeg",
+      "category": 7,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": true,
+      "hit": false
+    },
+    {
+      "id": "71",
+      "name": "Мясной Стартер",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/ca12f5cbed9e4814a308ea771d1087ad_366x366.jpeg",
+      "category": 7,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": true
+    },
+    {
+      "id": "72",
+      "name": "Картошка фри",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/5c7e3ae6e2be4b8eba8f342ad58fc77d_366x366.jpeg",
+      "category": 7,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "73",
+      "name": "Куриные крылья",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/8dd01d545d814a3f87597d8e6149f0b0_366x366.jpeg",
+      "filling": ["Тигровая креветка", "огурец", "авокадо", "соус Айоли", "рис", "Икра"] ,
+      "category": 7,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "74",
+      "name": "Куриные кусочки",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/165d737436ac4976814599babeef11c3_366x366.jpeg",
+      "category": 7,
+      "sizes": [20, 28, 33],
+      "price": 630,
+      "rating": 2,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "75",
+      "name": "Салат Цезарь",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/bf15b0d548f64555b99259cf9fee5fcd_366x366.jpeg",
+      "category": 7,
+      "sizes": [20, 33],
+      "price": 425,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+      
+    },
+    {
+      "id": "76",
+      "name": "Острый Додсер",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/14afcd3cc7094ee49a8b71953ef9f777_366x366.jpeg",
+      "category": 7,
+      "sizes": [20, 28, 33],
+      "price": 475,
+      "rating": 4,
+      "recent": false,
+      "hit": false
+    },
+    {
+      "id": "77",
+      "name": "Паста Карбонара",
+      "imageUrl": "https://cdn.dodostatic.net/static/Img/Products/289ceaa7249640b0b5a109b908b07cd6_1875x1875.jpeg",
+      "category": 7,
+      "sizes": [20, 33],
+      "price": 395,
+      "rating": 6,
+      "recent": false,
+      "hit": false
+    }
+    
+
+  ]

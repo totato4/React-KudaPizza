@@ -1,0 +1,42 @@
+@import "contactsForm/contactsForm";
+@import "delivForm/delivForm";
+
+._form-input-title {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: calc(18/14*100%);
+    color: #A5A5A5;
+    margin-bottom: 8px;
+}
+
+._form__container {
+    width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto 41px auto;
+    column-gap: 20px;
+}
+
+._form-input-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(22/16*100%);
+    text-indent: 16px;
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+} 
+
+._form__label {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: calc(32/24*100%);
+    width: 100%;
+    margin-bottom: 16px;
+    flex: 0 0 auto;
+    
+}
+
+
+
+
+

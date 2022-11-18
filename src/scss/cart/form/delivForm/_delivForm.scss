@@ -1,0 +1,161 @@
+.deliv-form__wrapper {
+
+}
+
+.deliv-form__header-wrapper {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.deliv-form__title {
+    
+}
+
+.deliv-form__buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    right: 350px;
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+    button {
+       width: 175px;
+       height: 48px;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: calc(22/16*100%);
+        color: black;
+        background-color: white;
+        border-radius: 6px;
+
+       &.active {
+           color: white;
+           background-color: #ff7010;
+       }
+    }
+}
+
+
+.deliv-form__input-wrapper_street {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.deliv-form__input-wrapper {
+    display: flex;
+    margin-bottom: 16px;
+    column-gap: 20px;
+}
+
+.deliv-form__input {
+    display: flex;
+    flex-direction: column;
+}
+
+.deliv-form__street-input {
+    width: 100%;
+    height: 48px;
+}
+
+.deliv-form__address-input {
+    width: 154px;
+    height: 48px;
+}
+
+
+.deliv-form__checkbox-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.deliv-form__checkbox-title_time {
+    font-size: 16px;
+    line-height: calc(22/16*100%);
+    font-weight: 400;
+    color: #A5A5A5;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+
+
+
+
+.deliv-form__line {
+    width: 100%;
+    border:0.5px solid #F0F0F0;
+    margin: 20px 0px;
+    color: #A5A5A5
+}
+
+.deliv-form__change-input {
+    width: 160px;
+    height: 48px;
+    text-indent: 16px;
+    margin-left: 16px;
+    position: absolute;
+    top: -12px;
+
+    border: 1px solid #F0F0F0;
+    border-radius: 6px;
+}
+
+.deliv-form__comment-input {
+    max-width: 850px;
+    min-width: 850px;
+    height: 200px;
+    border: 1px solid #F0F0F0;
+    text-indent: 16px;
+    top: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(22/16*100%);
+
+    resize: none;
+    padding-bottom: 150px;
+    outline: none;
+    overflow: auto;
+}
+
+.deliv-form__checkout-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0px 0px 60px;
+    align-items: center;
+}
+
+.deliv-form__checkout-total-cost {
+    @extend %money-text;
+}
+
+.deliv-form__checkout-button {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(22/16*100%);
+    color: white;
+    background-color: #FF7010;
+    padding: 13px 24px;
+    border: 1px solid #FF7010;
+    border-radius: 6px;
+}
+
+.deliv-form__radio {
+    -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Chrome/Safari/Opera */
+        -khtml-user-select: none;
+        /* Konqueror */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        user-select: none;
+        /* Non-prefixed version, currently
+                                      not supported by any browser */
+}

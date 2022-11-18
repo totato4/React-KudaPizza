@@ -1,0 +1,167 @@
+.product-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.product-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: calc(48 / 40 * 100%);
+}
+
+.filter__wrapper {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.4);
+    position:fixed;
+    top: 0;
+    left: 0;
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.filter {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+
+.filter__button {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter__img {
+  width: 16px;
+  height: 16px;
+  margin: 12px 8px 12px 16px;
+}
+
+.filter__name {
+  margin: 9px 16px 9px 0px;
+}
+
+@media (max-width: 1320px) {
+  .product-header {
+    margin: 0px 15px 32px;
+  }
+}
+
+// MODAL
+
+.modal__title {
+  margin-bottom: -4px;
+  font-size: 32px;
+  line-height: calc(40 / 32 * 100%);
+  font-weight: 600;
+}
+
+.modal__category {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.filter__modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 2;
+  background-color: white;
+  padding: 32px 20px 0px 20px;
+}
+
+.modal-item__list {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 441px;
+  gap: 8px;
+}
+
+.category__title {
+  margin-bottom: 12px;
+  color: #a5a5a5;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.modal__item {
+  color: black;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  background-color: #ffffff;
+  padding: 11px 16px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.modal__item_active {
+  background-color: #ff7010;
+  color: white;
+  border: 1px solid #ff7010;
+  border-radius: 6px;
+}
+
+.modal__close {
+  background-color: white;
+}
+
+.close__img {
+  width: 24px;
+  height: 24px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.modal__head {
+  display: flex;
+  justify-content: space-between;
+}
+
+// modal-button
+%MB {
+  font-size: 16px;
+  line-height: calc(22 / 16 * 100%);
+  font-weight: 400;
+  border-radius: 6px;
+  width: 230px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  text-align: center;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  cursor: pointer;
+}
+
+.modal-button__container {
+  display: flex;
+  gap: 20px;
+  padding: 12px 20px;
+  margin: 4px;
+}
+
+.modal-button {
+  @extend %MB;
+}
+
+.modal-button_reset {
+  border: 1px solid #ff7010;
+  color: #ff7010;
+  background-color: white;
+}
+
+.modal-button_select {
+  border: 1px solid #ff7010;
+  color: white;
+  background-color: #ff7010;
+}

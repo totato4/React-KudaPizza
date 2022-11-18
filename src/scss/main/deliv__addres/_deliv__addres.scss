@@ -1,0 +1,74 @@
+
+
+.deliv-addres {
+ margin-bottom: 30px;
+ background-color: white;
+}
+
+.deliv-addres__body {
+    display: flex;
+    align-items: center;
+
+}
+
+.deliv-addres__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(24/18 * 100%);
+    color: #191919;
+    margin: 0px 32px;
+}
+
+.deliv-addres__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+
+    margin: 16px 32px;
+
+    border: 1px solid #F0F0F0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    
+    width: 953px;
+    margin-left: 32px;
+}
+
+.deliv-addres__img {
+    
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+}
+
+.deliv-addres__input {
+    position: relative;
+    
+    height: 48px;
+    width: 100%;
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(24/18 * 100%);
+
+}
+
+.deliv-addres__button {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: calc(22/16 * 100%);
+
+    background-color: #FF7010;
+    border-radius: 6px;
+    min-height: 48px;
+    padding: 0px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}

@@ -1,0 +1,143 @@
+.deliv-form__radio-container {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: -23px;
+}
+
+.deliv-form__radio {
+    position: relative;
+    margin-left: 24px;
+
+
+}
+
+
+.deliv-form__radio-input {
+    position: absolute;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.deliv-form__radio-label {
+   padding-left: 25px;
+   font-size: 16px;
+   line-height: calc(22/16*100%);
+   font-weight: 400;
+   color: #191919;
+   cursor: pointer;
+   
+}
+
+.deliv-form__radio-label::before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    
+    
+    border: 1px solid #A5A5A5;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    z-index: 1;
+    transition: border .1s linear;
+
+}
+
+.deliv-form__radio-label::after {
+        content: "";
+        display: block;
+        width: 8px;
+        height: 8px;
+        
+        
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        top: 7px;
+        left: 4px;
+        z-index: 2;
+        transition: border .1s linear, background-color .1s linear;
+}
+
+.deliv-form__radio-input:checked + .deliv-form__radio-label:before {
+    border-color: #FF7010;
+}
+
+
+.deliv-form__radio-input:checked + .deliv-form__radio-label:after {
+    background-color: #FF7010;
+    border-color: #FF7010;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .deliv-form__checkbox-field-group {
+//     margin-top: 16px;
+//     margin-left: 24px;
+// }
+
+
+// .deliv-form__checkbox-field {
+
+//     position: absolute;
+//     z-index: -1;
+//     opacity: 0;
+// }
+
+
+// .deliv-form__checkbox-label {
+//     display: inline-flex;
+//     align-items: center;
+//     user-select: none;
+    
+// }
+
+// .deliv-form__checkbox-label::before {
+//     content: '';
+//     display: inline-block;
+//     width: 16px;
+//     height: 16px;
+//     flex-shrink: 0;
+//     flex-grow: 0;
+//     border: 1px solid #A5A5A5;
+//     border-radius: 50%;
+//     margin-right: 0.5em;
+//     background-repeat: no-repeat;
+//     background-position: center center;
+//     background-size: 50% 50%;
+
+// }
+
+// .deliv-form__checkbox-field:not(:disabled):active+.deliv-form__checkbox-label::before {
+//     background-color: red;
+//     border-color: green;
+// }
+
+// .deliv-form__checkbox-field:checked+.deliv-form__checkbox-label::before {
+//     border-color: #FF7010;
+//     background-color: #FF7010;
+// }
+
+// // .deliv-form__checkbox-field-group>.deliv-form__checkbox-field:not(:disabled):active+.deliv-form__checkbox-label::before {
+// //     background-color:
+// // }
+

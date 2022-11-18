@@ -1,0 +1,79 @@
+.item-page__wrapper {
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 720px;
+}
+
+.item-page__img {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.item-page__title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: calc(28/24 * 100%);
+    margin-bottom: 10px;
+
+
+}
+
+.item-page__subtitle {
+    max-width: 720px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: calc(20/16*100%);
+    margin-bottom: 10px;
+
+}
+
+.item-page__price {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: calc(24/18*100%);
+    
+}
+
+.item-page__button_back {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff7010;
+    padding: 2px;
+    border-radius: 6px;
+    border: 1px solid #ff7010;
+    width: 70%;
+    height: 30px;
+    margin: 10px auto;
+    opacity: 0.8;
+    text-decoration: none;
+    color: black;
+
+    -webkit-touch-callout: none;
+        /* iOS Safari */
+        -webkit-user-select: none;
+        /* Chrome/Safari/Opera */
+        -khtml-user-select: none;
+        /* Konqueror */
+        -moz-user-select: none;
+        /* Firefox */
+        -ms-user-select: none;
+        /* Internet Explorer/Edge */
+        user-select: none;
+        /* Non-prefixed version, currently
+                                      not supported by any browser */
+
+    &:active {
+        padding-top: 6px;
+    }
+
+    &:hover {
+        opacity: 1;
+    }
+}

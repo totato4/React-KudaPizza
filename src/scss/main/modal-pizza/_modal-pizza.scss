@@ -1,0 +1,284 @@
+%PizModBut {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: calc(22 / 16 * 100%);
+  align-items: center;
+}
+
+%PizModIng {
+  font-size: 14px;
+  line-height: calc(18 / 14 * 100%);
+  align-items: center;
+  font-weight: 400;
+}
+
+// .modal-pizza {
+//   position: fixed;
+//   top: 20%;
+//   left: 20%;
+//   z-index: 3;
+//   display:none;
+// }
+
+
+
+.modal-pizza__cancel-button {
+  position: absolute;
+  top: 0;
+  right: -62px;
+  cursor: pointer;
+}
+
+.modal-pizza__img-cancel-button {
+  width: 32px;
+  height: 32px;
+}
+
+.modal-pizza__image {
+  padding: 115px 60px;
+}
+
+.modal-pizza__img {
+  max-width: 450px;
+  max-height: 450px;
+}
+
+.modal-pizza__label {
+  position: absolute;
+  top: 32px;
+  left: 0px;
+}
+
+.modal-pizza__menu {
+  padding: 32px 20px 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ingredients {
+  margin-bottom: 24px;
+}
+
+.modal-pizza__pizza-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 18px;
+}
+
+.modal-pizza__name-label {
+  width: 24px;
+  height: 24px;
+}
+
+.modal-pizza__name {
+  font-size: 20px;
+  line-height: calc(28 / 20 * 100%);
+  font-weight: 600;
+}
+
+.modal-pizza__button-info {
+  cursor: pointer;
+}
+
+.button-info__img {
+  width: 24px;
+  height: 24px;
+}
+
+.modal-pizza__ingredients {
+  display: flex;
+  gap: 20px;
+  
+
+}
+
+.ingredient__wrapper {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.ingredients__item {
+}
+
+.ingredients__image {
+  width: 105px;
+  height: 105px;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredients__img {
+  width: 40px;
+}
+
+.ingredients__name {
+  @extend %PizModIng;
+  text-align: center;
+}
+
+.modal-pizza__buttons {
+  margin-bottom: 24px;
+}
+
+.modal-pizza__dough {
+  display: flex;
+  margin-bottom: 16px;
+    button {
+      @extend %PizModBut;
+      background-color: rgb(236, 236, 236);
+      cursor: pointer;
+      width: 240px;
+      color: black;
+      padding: 13px 0;
+      text-align: center;
+    
+      &.active {
+        @extend %PizModBut;
+        cursor: pointer;
+        width: 240px;
+        background-color: #ff7010;
+        color: white;
+        padding: 13px 0;
+        text-align: center;
+    
+      }
+    
+      &.disabled {
+        @extend %PizModBut;
+        cursor: pointer;
+        width: 240px;
+        background-color: white ;
+        color: black;
+        padding: 13px 0;
+        text-align: center;
+        opacity: 0.5;
+        pointer-events: none;
+        border: 1px solid #F0F0F0
+      }
+    }
+  }
+
+
+
+
+
+.modal-pizza__size {
+  display: flex;
+  button {
+      @extend %PizModBut;
+      width: 160px;
+      background-color: rgb(236, 236, 236);
+      color: black;
+      text-align: center;
+      padding: 11px 0px;
+      cursor: pointer;
+
+        &.active {
+        width: 160px;
+        background-color: #ff7010;
+        color: white;
+        text-align: center;
+        padding: 11px 0px;
+        cursor: pointer;
+        }
+        &.disabled {
+          width: 160px;
+          background-color: white;
+          color: black;
+          text-align: center;
+          padding: 11px 0px;      
+          pointer-events: none;
+          opacity: 0.5;
+        }
+  }
+}
+
+
+
+.modal-pizza__add-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: calc(20 / 16 * 100%);
+  margin-bottom: 16px;
+}
+
+.modal-pizza__add-menu {
+  @extend %PizModIng;
+}
+
+.modal-pizza__footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-pizza__total {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total__total-price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: calc(28 / 20 * 100%);
+  color: #ff7010;
+  margin-right: 12px;
+}
+
+.total__total-weight {
+  @extend %PizModIng;
+  color: #a5a5a5;
+  position: relative;
+  bottom: -4px;
+}
+
+.modal-pizza__select-button {
+  padding: 13px 40px;
+  color: white;
+  font-size: 16px;
+  line-height: calc(22 / 16 * 100%);
+  font-weight: 400;
+  background-color: #ff7010;
+  border-radius: 6px;
+}
+
+
+.modal-pizza {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.4);
+  position:fixed;
+  top: 0;
+  left: 0;
+  
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 4;
+  transition: 0,5s;
+}
+
+.modal-pizza-active {
+  opacity: 1;
+  pointer-events: all;
+  
+}
+
+.modal-pizza__body {
+  position: relative;
+  background-color: white;
+  display: flex;
+  border-radius: 24px;
+  transform: scale(0.95);
+  transition: 0.2s all;
+}
+
+.modal-pizza__body.active {
+transform: scale(1);
+}
