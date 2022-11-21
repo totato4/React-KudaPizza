@@ -1514,6 +1514,9 @@ button {
   font-weight: 400;
   line-height: calc(22 / 16 * 100%);
   font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   white-space: nowrap;
 }
 
@@ -1524,6 +1527,25 @@ button {
 .menu-footer__link {
   text-decoration: none;
   color: #191919;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+.menu-footer__link.icon-vk {
+  text-decoration: none;
+  color: #191919;
+  text-align: center;
+  margin-bottom: auto;
+  margin-left: 12px;
+  margin-right: 24px;
+}
+
+.menu-footer__link.icon-youtube {
+  text-decoration: none;
+  color: #191919;
+  text-align: center;
+  margin-bottom: auto;
+  margin-left: 12px;
 }
 
 .menu-footer__link_double {
@@ -1597,6 +1619,9 @@ button {
     white-space: nowrap;
   }
   .menu-footer__item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     font-weight: 400;
     line-height: calc(15 / 12 * 100%);
     font-size: 12px;

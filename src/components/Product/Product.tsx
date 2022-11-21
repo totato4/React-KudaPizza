@@ -74,7 +74,8 @@ const Product: React.FC<Iitem> = ({
           }
         />
         <Link key={id} to={`/item/${id}`}>
-          <img src={`${imageUrl}`} alt="alt" className="item__img" />
+          {/* <img src={`${imageUrl}`} alt="alt" className="item__img" /> */}
+          <img src="/img/home/pizza.jpg" alt="alt" className="item__img" />
         </Link>
       </div>
       <div className="item-text-wrapper">

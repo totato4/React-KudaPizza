@@ -51,9 +51,9 @@ function ItemPage() {
       <div className="main__container _container">
         <div className="item-page__wrapper">
           <img
+            src="/img/home/pizza.jpg"
             className="item-page__img"
-            src={item.imageUrl}
-            alt="КАРТИНКААА"
+            alt="КАРТИНКА"
           />
           <h2 className="item-page__title">{item.name}</h2>
           <p className="item-page__subtitle">

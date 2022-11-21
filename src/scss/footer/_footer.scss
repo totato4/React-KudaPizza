@@ -74,6 +74,7 @@
   font-weight: 400;
   line-height: calc(22 / 16 * 100%);
   font-size: 16px;
+  display: flex;
   white-space: nowrap;
 }
 
@@ -84,7 +85,28 @@
 .menu-footer__link {
   text-decoration: none;
   color: #191919;
+  text-align: center;
+  margin-bottom: auto;
+
+  &.icon-vk {
+  text-decoration: none;
+  color: #191919;
+  text-align: center;
+  margin-bottom: auto;
+  margin-left: 12px;
+  margin-right: 24px;
+  }
+
+  &.icon-youtube {
+text-decoration: none;
+  color: #191919;
+  text-align: center;
+  margin-bottom: auto;
+  margin-left: 12px;
+  }
 }
+
+
 
 .menu-footer__link_double {
   margin-right: 24px;
@@ -169,6 +191,8 @@
   }
 
   .menu-footer__item {
+    display: flex;
+    
     font-weight: 400;
     line-height: calc(15 / 12 * 100%);
     font-size: 12px;
